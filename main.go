@@ -17,6 +17,8 @@ const (
 	httpClientTimeout = 15 * time.Second
 )
 
+func main() {}
+
 type QuotsClientProperties struct {
 	quotsBase string
 	appId     string
