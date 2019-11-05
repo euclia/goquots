@@ -1,4 +1,4 @@
-package main
+package goquots
 
 type QuotsUser struct {
 	Id       string  `json:"id"`

@@ -1,4 +1,4 @@
-package main
+package goquots
 
 import (
 	"fmt"
@@ -20,7 +20,7 @@ func TestCreateUser(t *testing.T) {
 }
 
 func TestGetUser(t *testing.T) {
-	q := InitQuots("http://localhost:8004", "GOQUOTS", "IlFELGMLf^BmJg2MVV")
+	q := InitQuots("http://localhost:8000", "GOQUOTS", "IlFELGMLf^BmJg2MVV")
 	var IQuots = q
 	quotsUser, err := IQuots.GetUser("useridquoquots")
 	if err != nil {

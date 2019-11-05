@@ -1,4 +1,4 @@
-package main
+package goquots
 
 import (
 	"bytes"
@@ -17,7 +17,7 @@ const (
 	httpClientTimeout = 15 * time.Second
 )
 
-func main() {}
+// func main() {}
 
 type QuotsClientProperties struct {
 	quotsBase string
